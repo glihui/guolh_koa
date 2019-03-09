@@ -5,8 +5,7 @@ const client = new Client({
         // password: 'guolihui',
         password: 'dream6833526',
         database: 'chat',
-        // host: '127.0.0.1',
-        host: 'http://chat.guolh.com'
+        host: '127.0.0.1',
     }
 });
 
