@@ -21,7 +21,7 @@ app.use(cors({
         if (ctx.url === '/test') {
             return "*";
         }
-        return 'http://chat.guolh.com:80';
+        return 'http://chat.guolh.com';
     },
     exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'],
     maxAge: 5,
