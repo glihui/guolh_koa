@@ -5,8 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
     "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0",
     "koa-websocket": "^5.0.1",
+    "koa2-cors": "^2.0.6",
+    "mysql-pro": "^1.0.1",
     "socket.io": "^2.2.0"
   },
   "devDependencies": {},
