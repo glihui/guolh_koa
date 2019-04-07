@@ -15,7 +15,15 @@ const io = socket(server);
 
 const cors = require('koa2-cors');
 
-app.use(bodyParser());
+app.use(bodyParser(
+    {
+        formLimit:"3mb",
+        jsonLimit:"3mb",
+        textLimit:"3mb",
+        enableTypes: ['json', 'form', 'text']
+    }
+));
+
 
 app.use(cors({
     origin: function (ctx) {
